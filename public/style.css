@@ -1,0 +1,230 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: black;
+  
+}
+div.header{
+    display: inline-block;
+    color: white;
+    background-color: royalblue;
+    margin: 20px;
+    padding: 4px;
+    border: royalblue;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(27, 25, 25);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color:black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(147, 135, 212);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 252, 252, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .img{
+    display: inline-block;
+    animation: 30s slidy infinite; 
+  }
+  
+
+  .blue{
+    color: blue;
+    font-size: 36px;
+    font-style: italic;
+  }
+  .green{
+    color: green;
+    font-size: 36px;
+    font-style: italic;
+  }
+.intr{
+  width: 70px;
+  text-underline-position: below;
+}
+.col{
+  color: green;
+}
+.est{
+  color: black;
+  background-color: white;
+  width: 60%;
+  font: 1em sans-serif;
+  font-size: 20px;
+  height: 850px;
+  padding: 60px;
+  word-spacing: 10px;
+}
+  .num{
+    background-color: rgb(76, 76, 247);
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+  }
+  .num2{
+    font-size: 56px;
+  }
+  .num3{
+    font-size: 20px;
+  }
+  .green2{
+    color: rgb(120, 236, 3);
+  }
+  .num1{
+    word-spacing: 240px
+  }
+  .what{
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+   
+   
+  }
+  .are{
+    color:green;
+    font-size: 36px; 
+    text-align: center;
+  }
+  
+.we{
+  color: green;
+  border-radius: 2px;
+  display: flex;
+
+}
+.my{
+  border: solid rgb(139, 123, 123) 5px;
+  border-radius: 10px;
+  box-shadow:  10px 10px 5px grey;
+  background-color:rgb(233, 227, 227);
+  text-decoration: none;
+  font-size: 30px;
+  width: 300px;
+ text-align: center;
+ margin: 60px;
+padding: 2px;
+animation: move 0.5s reverse ;
+}
+
+.mission{
+  display: inline-table;
+  background-color: white;
+  color: blue;
+  margin: 20px;
+  padding: 20px;
+  float: left;
+  
+}
+
+.hp{
+ float:left;
+ width: max-content 50px;
+ width: 350px;
+ height: 50px;
+ border: solid gray 5px;
+ padding: 2px;
+ margin: 2px;
+ box-shadow: 10px 10px 5px grey;;
+word-spacing: 10px;
+white-space: pre-wrap;
+background-color: white;
+color: blue;
+font-size: 16px;
+}
+.gallery{
+  animation: move 5s reverse ;
+
+}
+
+.contact{
+  background-color: black;
+  padding: 80px;
+  width: 100%;
+  height: 50%S;
+}
+.right{
+ 
+  font-style: oblique;
+  font-size: 20px;
+  text-align: end;
+}
+.gr{
+  color: green;
+}
+.lgr{
+  color: rgb(8, 75, 8);
+}
+.left{
+  float: left;
+  font-size: 14px;
+  background-color: black;
+  padding: 2px;
+}
+.img2{
+  padding: 5px;
+}
